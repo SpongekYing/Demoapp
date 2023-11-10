@@ -1,0 +1,29 @@
+<header>
+    <title>Universe Store</title>
+    <link rel="stylesheet" href="hearder.component.css">
+    <div class="container">
+        <a routerLink="/" class="logo">
+            <!-- 插入圖片 -->
+            <img src='assets/pic/logo.png' alt="Universe_Store">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a routerLink="/login">Login</a>
+                </li>
+                <li class="menu-container">
+                    <a routerLink="/Dashboard">Hi, KY!</a>
+                    <div class="menu">
+                        <a routerLink="/Profile">Profile</a>
+                        <a routerLink="/Orders">Orders</a>
+                    </div>
+                </li>
+                <li>
+                    <a routerLink="/ShoppingCart">
+                        Cart <span>3</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

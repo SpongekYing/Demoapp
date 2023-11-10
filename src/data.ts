@@ -1,0 +1,52 @@
+import { Commodity } from "./app/Shared/Model/Commodity/Commodity";
+
+export const commodity: Commodity[] = [
+    {
+        id:1,
+        name:'Foundation Base',
+        price:10,
+        tags:['Beauty'],
+        favorite:false,
+        description:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        stars:4.0,
+        imageURL:'',
+        origins:['China','Beijing'],
+        stock:100,
+    },
+    {
+        id:2,
+        name:'Foundation Base',
+        price:10,
+        tags:['Beauty'],
+        favorite:false,
+        description:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        stars:4.0,
+        imageURL:'',
+        origins:['China','Beijing'],
+        stock:100,
+    },
+    {
+        id:3,
+        name:'Foundation Base',
+        price:10,
+        tags:['Beauty'],
+        favorite:false,
+        description:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        stars:4.0,
+        imageURL:'',
+        origins:['China','Beijing'],
+        stock:100,
+    },
+    {
+        id:4,
+        name:'Foundation Base',
+        price:10,
+        tags:['Beauty'],
+        favorite:false,
+        description:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        stars:4.0,
+        imageURL:'',
+        origins:['China','Beijing'],
+        stock:100,
+    }
+]
