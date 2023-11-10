@@ -9,7 +9,7 @@ export const commodity: Commodity[] = [
         favorite:false,
         description:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         stars:4.0,
-        imageURL:'',
+        imageURL:'assets/images/foundation_base.jpg',
         origins:['China','Beijing'],
         stock:100,
     },
